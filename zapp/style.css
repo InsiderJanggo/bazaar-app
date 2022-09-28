@@ -1,0 +1,180 @@
+@font-face {
+	font-family: 'PTSans';
+	src: url('PTSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Aref';
+	src: url('ArefRuqaaInk-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Signika';
+	src: url('SignikaNegative-VariableFont_wght.ttf') format('truetype');
+}
+
+body {
+	background-color: #fff;
+	margin: 0;
+}
+
+/* judul */
+h1 {
+	margin: 15px;
+	padding: 5px;
+	font-family: 'PTSans', sans-serif;
+}
+
+/* form container */
+.container {
+	margin: 20px;
+}
+
+/* tombol di dalam container bawah */
+.order button {
+	margin: 0 10px;
+}
+
+/* tabel data */
+table#main-table {
+	font-family: 'Signika';
+	margin: 40px;
+	text-align: center;
+}
+
+/* heading tabel data */
+table tr th {
+	text-transform: uppercase;
+}
+
+/* tebalkan tulisan */
+.bold {
+	font-weight: bold;
+}
+
+/* tombol */
+button {
+	font-family: 'Calibri';
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: bolder;
+	cursor: pointer;
+	padding: 5px 10px;
+	color: white;
+	background-color: #0092EA;
+	border-radius: 20px;
+	transition: 0.1s;
+	border-color: transparent;
+}
+
+button:hover {
+	background-color: rgba(0, 0, 0, 1.0);
+}
+
+button:active {
+	border-color: white;
+}
+
+/* input default */
+.input-default {
+    width: 30%;
+	border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'Aref';
+    outline: none;
+    transition: 0.3s;
+    border: 1px solid #ccc;
+}
+
+/* container find */
+.find {
+	margin: 0 40px;
+}
+
+/* input find */
+.input-find {
+	padding: 10px;
+}
+
+/* td menu */
+#td-menu span label img {
+	border: 1px solid black;
+	padding: 20px;
+	box-sizing: content-box;
+	border-radius: 50%;
+	margin: 20px;
+}
+
+#td-menu span {
+	position: relative;
+}
+
+/* checkbox membelakangi gambar */
+input[type=checkbox] {
+	position: absolute;
+	height: 570%;
+	width: 100%;
+	z-index: -1;
+}
+
+/* input number */
+#td-qty input[type=number] {
+	margin: 0 70px;
+	width: 30px;
+	text-align: right;
+}
+
+/* footer */
+#main-footer {
+	text-align: center;
+	padding: 20px;
+	margin-top: 50px;
+	background-color: #000;
+	color: white;
+	text-transform: uppercase;
+	font-weight: bolder;
+	font-family: 'Signika';
+}
+
+/* ------------ form container ------------- */
+
+/* semua input field */
+.container input[type=text] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    font-size: 18px;
+}
+
+input[type=text]:focus {
+	box-shadow: 0 0 10px black;
+}
+
+/* memberi jarak antar radiobutton */
+td span {
+	margin: 0 10px;
+}
+
+/* form container */
+div.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+/* tabel untuk form */
+#form-table {
+	width: 100%;
+	font-family: 'Aref';
+	font-size: 20px;
+}
+
+/* menambahkan padding untuk setiap kolom */
+#form-table td {
+	padding: 0 20px;
+}
+
+/* buat tulisan menjadi rata kanan */
+#form-table tr td:first-child {
+	text-align: right;
+}
